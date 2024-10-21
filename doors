@@ -15,7 +15,7 @@ end
 
 local playerName = game.Players.LocalPlayer.Name
 if isWhitelisted(playerName) then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/eyu1111/door-/refs/heads/main/%E5%AE%8732911165933"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/eyu1111/doors11111111/refs/heads/main/111"))()
 else
     print("You are not whitelisted to use this script.")
 end
